@@ -38,7 +38,7 @@ resource "google_compute_instance" "vm_instance" {
   }
 
   metadata = {
-    ssh-keys = "devOps:${file("/Users/seebo/.ssh/devops")}"
+    ssh-keys = "devOps:${file("devops-project-nginx-git/.ssh/devops")}"
   }
 
   // Include the startup script here

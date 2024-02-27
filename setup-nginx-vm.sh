@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Set variables
-PRIVATE_KEY_PATH="/Users/seebo/.ssh/devops"
-PUBLIC_KEY_PATH="/Users/seebo/.ssh/devopspub"
-TERRAFORM_DIR="/Users/seebo/Documents/Uni/DevOps/Allocate-a-virtual-machine-in-the-cloud"
+PRIVATE_KEY_PATH="devops-project-nginx-git/.ssh/devops"
+PUBLIC_KEY_PATH="devops-project-nginx-git/.ssh/devopspub"
+TERRAFORM_DIR="devops-project-nginx-git/"
 INSTANCE_USERNAME="devOps"
 
 # Initialize Terraform
